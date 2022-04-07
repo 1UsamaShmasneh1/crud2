@@ -9,6 +9,7 @@ import { DashbordComponent } from './components/dashbord/dashbord.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './components/menu/menu.component';
 
 const appRoutes: Routes = [
   {path: '', component: LoginComponent},
@@ -23,7 +24,8 @@ const appRoutes: Routes = [
     AppComponent,
     LoginComponent,
     DashbordComponent,
-    CoursesComponent
+    CoursesComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
